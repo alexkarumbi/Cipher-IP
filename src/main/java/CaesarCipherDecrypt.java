@@ -5,6 +5,12 @@ public class CaesarCipherDecrypt {
 
         StringBuilder cypherText =new StringBuilder();
 
+        for (int counter =0;counter<s.length();counter++){
+            if (!Character.isLetter(s.charAt(counter))){
+                cypherText.append(s.charAt(counter));
+            }
+        }
+
 
 
     }
